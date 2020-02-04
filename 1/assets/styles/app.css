@@ -46,6 +46,10 @@ header {
   text-align: center;
 }
 
+#calculator input::-webkit-inner-spin-button {
+  display: none;
+}
+
 #calculator input:focus {
   outline: none;
 }
