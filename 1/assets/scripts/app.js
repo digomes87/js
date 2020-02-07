@@ -1,7 +1,8 @@
-let currentResult = 0 
+const defaultResult = 0
+let currentResult = defaultResult
 
-currentResult = (currentResult + 10 ) * 3 /2 -1
+currentResult = (defaultResult + 10 ) * 3 /2 -1
 
-let calculationDescription = `Hey`
+let calculationDescription = `(${defaultResult} + 10 ) * 3 /2 -1`
 
 outResult(currentResult, calculationDescription)
